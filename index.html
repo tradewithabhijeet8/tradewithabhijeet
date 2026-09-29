@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trade With Abhijeet | Price Action & Technical Analysis</title>
+<meta name="description" content="Learn Price Action, Technical Analysis, Market Structure and Risk Management through structured trading education from Arya Mishra and Brijendra Tiwari.">
+<meta property="og:title" content="Trade With Abhijeet | Price Action & Technical Analysis">
+<meta property="og:description" content="Structured trading education from Arya Mishra and Brijendra Tiwari.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07090c;--bg2:#0d1218;--card:rgba(255,255,255,.04);--bd:rgba(255,255,255,.09);--tx:#e8ecf1;--mu:#8a95a3;--g:#22e07a;--r:#ff4d5e;--navy:#0b1a2e;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px;height:100%}
+body{background:var(--bg);color:var(--tx);font:16px/1.6 Inter,system-ui,sans-serif;overflow-x:hidden;min-height:100%}
+h1,h2,h3,.logo{font-family:'Space Grotesk',Inter,sans-serif;line-height:1.08;letter-spacing:-.01em}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--g);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1180px;margin:auto;padding:0 20px}
+section{padding:88px 0}
+.lbl{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--g);font-weight:600;margin-bottom:14px;display:block}
+h2{font-size:clamp(28px,4.4vw,46px);margin-bottom:14px;text-transform:uppercase}
+.sub{color:var(--mu);max-width:620px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 26px;border-radius:12px;font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--bd);background:transparent;color:var(--tx);cursor:pointer;transition:.25s;font-family:inherit;min-height:48px}
+.btn:hover{transform:translateY(-2px);border-color:var(--g)}
+.btn:active{transform:scale(.98)}
+.pri{background:var(--g);color:#04120a;border-color:var(--g)}
+.pri:hover{box-shadow:0 8px 30px rgba(34,224,122,.35)}
+.glass{background:var(--card);border:1px solid var(--bd);border-radius:18px;backdrop-filter:blur(12px);transition:.3s}
+.glass:hover{border-color:rgba(34,224,122,.4);box-shadow:0 0 40px rgba(34,224,122,.08)}
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:.3s}
+nav.sc{background:rgba(7,9,12,.75);backdrop-filter:blur(16px);border-bottom:1px solid var(--bd)}
+.nb{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-weight:700;font-size:20px;letter-spacing:.08em}.logo b{color:var(--g)}
+.links{display:flex;gap:24px;font-size:14px;color:var(--mu)}
+.links a:hover{color:var(--tx)}
+.burger{display:none;background:none;border:1px solid var(--bd);color:var(--tx);border-radius:10px;width:44px;height:44px;font-size:20px;cursor:pointer}
+.mob{display:none}
+/* hero */
+.hero{min-height:100vh;display:flex;align-items:center;padding:120px 0 60px;position:relative;overflow:hidden}
+.grid{position:absolute;inset:0;background-image:linear-gradient(var(--bd) 1px,transparent 1px),linear-gradient(90deg,var(--bd) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(ellipse at 60% 40%,#000 20%,transparent 75%);animation:pan 24s linear infinite;opacity:.6}
+@keyframes pan{to{background-position:56px 56px}}
+.glow{position:absolute;width:520px;height:520px;right:-120px;top:10%;background:radial-gradient(circle,rgba(34,224,122,.18),transparent 65%);filter:blur(20px)}
+.hg{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;position:relative}
+h1{font-size:clamp(38px,6.4vw,76px);text-transform:uppercase;margin-bottom:22px}
+h1 em{font-style:normal;color:var(--g)}
+.ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+.chart{padding:18px}
+.chart svg{width:100%;height:auto;display:block}
+.dr{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 3s .4s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.flt{animation:fl 6s ease-in-out infinite}
+@keyframes fl{50%{transform:translateY(-8px)}}
+.note{font-size:11px;color:var(--mu);margin-top:8px;text-align:center}
+/* cards */
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+.fc{padding:26px}.fc svg{color:var(--g);margin-bottom:16px}
+.fc h3{font-size:19px;margin-bottom:8px}.fc p{color:var(--mu);font-size:14px}
+.cc{padding:28px;display:flex;flex-direction:column;position:relative}
+.cc.feat{border-color:rgba(34,224,122,.5);background:linear-gradient(160deg,rgba(34,224,122,.09),rgba(11,26,46,.5))}
+.badge{position:absolute;top:18px;right:18px;background:var(--g);color:#04120a;font-size:10px;font-weight:700;letter-spacing:.12em;padding:4px 10px;border-radius:99px}
+.cn{font-size:12px;letter-spacing:.16em;color:var(--mu);margin-bottom:10px}
+.cc h3{font-size:24px;text-transform:uppercase;margin-bottom:10px}
+.cc p{color:var(--mu);font-size:14px}
+.cc ul,.chk{list-style:none;padding:0;margin:18px 0 24px;flex:1;font-size:14px}
+.cc li,.chk li{padding:5px 0 5px 22px;position:relative;color:#c7cfd9}
+.cc li::before,.chk li::before{content:"";position:absolute;left:2px;top:13px;width:8px;height:8px;border-radius:2px;background:var(--g)}
+.pr{font-family:'Space Grotesk';font-size:22px;font-weight:700;margin-bottom:14px}
+/* detail */
+.det{padding-top:110px}
+.dg{display:grid;grid-template-columns:1fr 360px;gap:36px;align-items:start;margin-top:30px}
+.dg h3{font-size:22px;margin:32px 0 10px}
+.pc{padding:28px;position:sticky;top:90px}
+.big{font-family:'Space Grotesk';font-size:44px;font-weight:700;color:var(--g)}
+.mt{font-size:13px;color:var(--mu);margin:8px 0 20px}
+.cur{counter-reset:c}.cur li{list-style:none;counter-increment:c;padding:12px 16px;border:1px solid var(--bd);border-radius:12px;margin-bottom:8px;color:#c7cfd9;font-size:15px}
+.cur li::before{content:counter(c,decimal-leading-zero) "  ";color:var(--g);font-family:'Space Grotesk';font-weight:700}
+/* faq */
+.fq{max-width:800px;margin:40px auto 0}
+.fi{margin-bottom:12px;overflow:hidden}
+.fi button{all:unset;box-sizing:border-box;width:100%;padding:20px 24px;cursor:pointer;display:flex;justify-content:space-between;gap:12px;font-weight:600}
+.fi button::after{content:"+";color:var(--g);font-size:22px;transition:.3s}
+.fi.o button::after{transform:rotate(45deg)}
+.fa{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s}
+.fi.o .fa{grid-template-rows:1fr}
+.fa>div{overflow:hidden;color:var(--mu);padding:0 24px;font-size:15px}
+.fi.o .fa>div{padding-bottom:20px}
+/* about */
+.ab{padding:28px;text-align:center}
+.av{width:84px;height:84px;border-radius:50%;margin:0 auto 16px;background:linear-gradient(135deg,var(--navy),#123);border:1px solid var(--g);display:grid;place-items:center;font-family:'Space Grotesk';font-size:28px;color:var(--g)}
+.ct{text-align:center;padding:60px 24px;background:linear-gradient(160deg,rgba(34,224,122,.08),var(--navy))}
+.ct .ctas{justify-content:center}
+footer{border-top:1px solid var(--bd);padding:56px 0 40px;background:var(--bg2);font-size:14px;color:var(--mu)}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}
+.fg a{display:block;padding:3px 0}.fg a:hover{color:var(--g)}
+.disc{font-size:12px;line-height:1.7;margin-top:34px;padding-top:24px;border-top:1px solid var(--bd)}
+/* modal */
+.md{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.7);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:16px;overflow:auto}
+.md.on{display:flex}
+.mb{background:#0e141b;border:1px solid var(--bd);border-radius:20px;padding:28px;width:100%;max-width:520px;max-height:94vh;overflow:auto;animation:up .3s}
+.mb h3{font-size:24px;margin-bottom:16px}
+label{display:block;font-size:13px;color:var(--mu);margin:14px 0 6px}
+input,textarea,select{width:100%;background:rgba(255,255,255,.05);border:1px solid var(--bd);border-radius:10px;color:var(--tx);padding:13px 14px;font:inherit}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--g);border-color:transparent}
+.er{color:var(--r);font-size:12px;min-height:16px;margin-top:4px}
+.sm{background:rgba(34,224,122,.06);border:1px solid rgba(34,224,122,.25);border-radius:12px;padding:14px 16px;margin:18px 0;font-size:14px}
+.sm div{display:flex;justify-content:space-between;padding:3px 0}
+.x{float:right;background:none;border:0;color:var(--mu);font-size:26px;cursor:pointer;min-width:44px;min-height:44px}
+.hv{position:relative}.chip{position:absolute;font-size:12px;padding:8px 12px;border-radius:10px;background:rgba(13,18,24,.88);border:1px solid rgba(34,224,122,.4);color:var(--g);backdrop-filter:blur(8px)}.c1{left:-14px;top:12%}.c2{right:-8px;bottom:16%}.dn{border-color:rgba(255,77,94,.4);color:var(--r)}
+.sp{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.tl{list-style:none;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:44px;counter-reset:t}.tl li{padding:22px}.tl b{color:var(--g);font-family:'Space Grotesk';font-size:26px}.tl h3{text-transform:uppercase;font-size:16px;margin:8px 0 6px}.tl p{color:var(--mu);font-size:14px}
+.ph{width:100%;aspect-ratio:1/1;max-width:180px;margin:0 auto 18px;border:1px dashed var(--bd);border-radius:16px;display:grid;place-items:center;color:var(--mu);font-size:12px;object-fit:cover;background:linear-gradient(135deg,var(--navy),transparent)}
+.ab{text-align:left}.ab .ph{margin-left:0}
+@media(max-width:1024px){.tl{grid-template-columns:1fr}.sp{grid-template-columns:1fr}}
+@media(max-width:640px){.c1{left:0}.c2{right:0}}
+/* motion */
+.rv{opacity:0;transform:translateY(24px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@keyframes up{from{opacity:0;transform:translateY(20px)}}
+.pg{animation:up .5s}
+@media(max-width:1024px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:1fr 1fr}.dg{grid-template-columns:1fr}.pc{position:static}}
+@media(max-width:820px){.links,.nav-cta{display:none}.burger{display:block}.hg{grid-template-columns:1fr}.mob.on{display:flex;flex-direction:column;gap:4px;padding:10px 20px 20px;background:rgba(7,9,12,.96);backdrop-filter:blur(16px)}.mob a{padding:14px 4px;border-bottom:1px solid var(--bd)}section{padding:64px 0}.fg{grid-template-columns:1fr}}
+@media(max-width:640px){.g4,.g3{grid-template-columns:1fr}.btn{width:100%}.ctas{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}.dr{stroke-dashoffset:0}}
+</style>
+</head>
+<body>
+<nav id="nav"><div class="wrap nb">
+<a href="#/" class="logo" id="logo"></a>
+<div class="links" aria-label="Primary"><a href="#/">Home</a><a href="#courses">Courses</a><a href="#educators">Educators</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+<a class="btn pri nav-cta" href="#courses" style="min-height:40px;padding:10px 18px">Explore Courses</a>
+<button class="burger" id="bg" aria-label="Toggle menu" aria-expanded="false">☰</button>
+</div>
+<div class="mob" id="mob"><a href="#/">Home</a><a href="#courses">Courses</a><a href="#educators">Educators</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a><a class="btn pri" data-wa href="#" target="_blank" rel="noopener" style="margin-top:12px">Chat on WhatsApp</a></div>
+</nav>
+<main id="app"></main>
+<footer><div class="wrap">
+<div class="fg"><div><div class="logo" style="color:var(--tx);font-size:20px" id="flogo"></div><p style="margin-top:8px">Read the market. Build your edge.</p><p style="margin-top:12px">WhatsApp: <a data-wa target="_blank" rel="noopener" href="#" id="fwa" style="color:var(--g)"></a></p></div>
+<div><a href="#/">Home</a><a href="#courses">Courses</a><a href="#educators">Educators</a><a href="#about">About</a><a href="#contact">Contact</a><a href="#faq">FAQ</a></div>
+<div><a href="#" data-legal="privacy">Privacy Policy</a><a href="#" data-legal="terms">Terms &amp; Conditions</a><a href="#disclaimer" data-legal="disclaimer">Disclaimer</a></div></div>
+<p class="disc" id="disclaimer"></p>
+<p style="margin-top:16px;font-size:13px" id="copy"></p>
+</div></footer>
+
+<div class="md" id="md" role="dialog" aria-modal="true" aria-labelledby="mt"><div class="mb" id="mbody"></div></div>
+
+<script>
+/* ============ EDIT ME: all business content lives here ============ */
+const CONFIG={
+  brand:"TRADE WITH ABHIJEET",
+  tagline:"Read the market. Build your edge.",
+  whatsapp:"917566924192",            // digits only, with country code
+  whatsappDisplay:"+91 7566924192",
+  currency:"₹",
+  deliveryAnswer:"After payment is confirmed, access details are shared with you on WhatsApp. [EDIT: Telegram / Discord / Google Drive / private platform]",
+  disclaimer:"Trading and investing involve significant risk. The content provided by Trade With Abhijeet is intended for educational and informational purposes only and should not be considered financial, investment or trading advice. Past performance does not guarantee future results. Users should conduct their own research and consider their individual risk tolerance before making financial decisions.",
+  legal:{privacy:"[EDIT] Add your Privacy Policy here. Details entered in the enrollment form are only used to prefill a WhatsApp message and are not stored by this website.",terms:"[EDIT] Add your Terms & Conditions here (refunds, content usage, delivery)."},
+  educators:[
+   {name:"Arya Mishra",role:"Trading Educator",bio:"Focused on helping learners understand market behaviour, price action and structured technical analysis.",photo:""},
+   {name:"Brijendra Tiwari",role:"Trading Educator",bio:"Focused on practical market analysis, technical concepts, risk management and disciplined trading.",photo:""}],
+  testimonials:[] // add {name:"Student name",text:"Genuine feedback"}; 3 placeholders show while empty
+};
+const PREMIUM={badge:"Premium Program",title:"The Complete Trading Program",parts:["Price Action","Technical Analysis","Risk Management","Trading Psychology"],price:null /* set a number to show price */};
+const COURSES=[
+{id:"price-action",n:"01",title:"Price Action Mastery",price:100000,
+ description:"Learn to read price movement, market structure and key levels without relying on blind signals.",
+ duration:"Add course duration",format:"Add course delivery format",
+ audience:["Beginners who want a structured foundation","Traders who want to stop relying on blind signals","Learners who want clear entry, stop-loss and target planning"],
+ learn:["How price moves and how market structure develops","Marking support, resistance and supply & demand","Reading breakouts, retests and candlestick behaviour","Planning entries, stops, targets and risk"],
+ curriculum:["Understanding Price Action","Market Structure","Swing Highs & Swing Lows","Support & Resistance","Trend Identification","Breakouts","Retests","Supply & Demand","Candlestick Behaviour","Entry Models","Stop Loss Planning","Target Planning","Risk Management","Practical Chart Analysis"],
+ outcomes:["Read market structure on any chart","Mark key levels with a clear process","Plan a trade with defined risk"]},
+{id:"technical-analysis",n:"02",title:"Advanced Technical Analysis",price:150000,
+ description:"Develop a structured technical-analysis framework using indicators, price behaviour and multiple-timeframe analysis.",
+ duration:"Add course duration",format:"Add course delivery format",
+ audience:["Learners who want to use indicators with purpose","Traders who want multiple-timeframe analysis","Those building a repeatable analysis routine"],
+ learn:["How trends, momentum and volume are analysed","Using moving averages, VWAP, RSI and Bollinger Bands","Spotting divergence and technical confluence","Planning entries, exits and risk/reward"],
+ curriculum:["Technical Analysis Fundamentals","Market Trends","Moving Averages","EMA","VWAP","RSI","Bollinger Bands","Volume Analysis","Momentum","Divergence","Multiple Timeframe Analysis","Technical Confluence","Entry & Exit Planning","Stop Loss","Risk/Reward","Practical Chart Analysis"],
+ outcomes:["Combine tools into a structured analysis process","Analyse charts across timeframes","Document a setup with entry, stop and risk/reward"]}
+];
+const FAQS=[
+["Is this course suitable for beginners?","The Price Action course starts from the foundations. [EDIT if your prerequisites differ]"],
+["Do I need previous trading experience?","No prior experience is required for the foundational content."],
+["What is included in the Price Action course?","Market structure, swing points, support & resistance, trends, breakouts, retests, supply & demand, candlestick behaviour, entry models, stop-loss and target planning, risk management and practical chart analysis."],
+["What is included in the Technical Analysis course?","Trends, moving averages, EMA, VWAP, RSI, Bollinger Bands, volume, momentum, divergence, multiple-timeframe analysis, confluence, trade planning and practical chart analysis."],
+["How do I enroll?","Open a course, click Enroll Now, fill in your details and continue on WhatsApp."],
+["How do I make the payment?","Payment instructions are shared on WhatsApp after you submit the enrollment form. Nothing is charged on this website. [EDIT: UPI / bank transfer / Razorpay]"],
+["How will I receive the course?",CONFIG.deliveryAnswer],
+["Does the course guarantee profits?","No. Trading involves significant risk and no educational program can guarantee profits or trading performance."]
+];
+/* ============ helpers ============ */
+const $=(s,r=document)=>r.querySelector(s);
+const money=p=>p>0?CONFIG.currency+p.toLocaleString("en-IN"):CONFIG.currency+"X,XXX";
+function generateWhatsAppLink(course,c){
+  const msg=c?`Hello Trade With Abhijeet,\n\nI am interested in enrolling in the ${course.title}.\n\nName: ${c.name}\nWhatsApp: ${c.phone}\nEmail: ${c.email}\n\nCourse Price: ${money(course.price)}${c.msg?`\n\nMessage: ${c.msg}`:""}\n\nPlease provide me with the payment and enrollment details.`:"Hello Trade With Abhijeet, I would like to know more about your courses.";
+  return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`;
+}
+const ic={
+ pa:'<path d="M3 17l5-6 4 3 6-8"/><path d="M3 21h18"/>',
+ ta:'<path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/>',
+ rm:'<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>',
+ ps:'<circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/>'};
+const icon=k=>`<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ic[k]}</svg>`;
+const head=(l,t,s)=>`<div class="rv"><span class="lbl">${l}</span><h2>${t}</h2>${s?`<p class="sub">${s}</p>`:""}</div>`;
+const wa=(t,cls="btn")=>`<a class="${cls}" data-wa target="_blank" rel="noopener" href="#">${t}</a>`;
+function candles(){
+  const d=[[40,120,70,100],[95,130,80,85],[85,115,60,105],[100,140,90,95],[92,120,70,72],[74,100,58,90],[88,128,80,118],[115,160,105,150],[148,175,120,128],[130,165,120,158],[155,190,140,182]];
+  return d.map((c,i)=>{const x=30+i*32,up=c[3]>=c[0]||i%3!==1,col=(i===4||i===8)?"var(--r)":"var(--g)";const top=250-c[1],bot=250-c[2],a=250-Math.max(c[0],c[3]),b=250-Math.min(c[0],c[3]);return `<line x1="${x}" x2="${x}" y1="${top}" y2="${bot}" stroke="${col}" stroke-width="1.5"/><rect x="${x-8}" y="${a}" width="16" height="${Math.max(6,b-a)}" rx="2" fill="${col}" opacity=".85"/>`}).join("");
+}
+const HERO_CHART=`<div class="hv"><div class="glass chart flt" aria-hidden="true"><svg viewBox="0 0 400 290" role="img" aria-label="Decorative candlestick chart"><rect x="10" y="60" width="380" height="34" fill="rgba(255,77,94,.08)"/><rect x="10" y="190" width="380" height="34" fill="rgba(34,224,122,.08)"/><path d="M10 75h380M10 207h380" stroke="rgba(255,255,255,.15)" stroke-dasharray="4 5"/>${candles()}<path class="dr" d="M20 210 L90 150 L130 175 L200 110 L240 140 L300 70 L370 40" fill="none" stroke="var(--g)" stroke-width="2"/></svg><p class="note">Decorative illustration only. Not real market data or results.</p></div><span class="chip c1" aria-hidden="true">▲ Higher high · structure</span><span class="chip c2 dn" aria-hidden="true">▼ Rejection · resistance zone</span></div>`;
+/* ============ pages ============ */
+function courseCard(c){const more=c.curriculum.length-6;return `<article class="glass cc rv"><div class="cn">COURSE ${c.n}</div><h3>${c.title}</h3><p>${c.description}</p><ul>${c.curriculum.slice(0,6).map(f=>`<li>${f}</li>`).join("")}<li style="color:var(--mu)">+ ${more} more topics</li></ul><div class="pr">${money(c.price)}</div><p style="font-size:12px;margin-bottom:14px">One-time enrollment</p><a class="btn" href="#/course/${c.id}">View Course</a></article>`}
+const STRUCT=`<svg viewBox="0 0 420 260" role="img" aria-label="Decorative market structure diagram" style="width:100%"><rect x="10" y="50" width="400" height="30" fill="rgba(255,77,94,.09)"/><rect x="10" y="180" width="400" height="30" fill="rgba(34,224,122,.09)"/><path class="dr" d="M20 200 L80 140 L120 170 L200 90 L240 125 L340 40" fill="none" stroke="var(--g)" stroke-width="2.5"/><g fill="var(--g)"><circle cx="80" cy="140" r="4"/><circle cx="200" cy="90" r="4"/><circle cx="340" cy="40" r="4"/></g><g fill="var(--r)"><circle cx="120" cy="170" r="4"/><circle cx="240" cy="125" r="4"/></g><g fill="var(--mu)" font-size="11"><text x="66" y="130">HH</text><text x="186" y="80">HH</text><text x="112" y="190">HL</text><text x="232" y="146">HL</text><text x="16" y="68">Resistance</text><text x="16" y="198">Support</text></g></svg>`;
+function home(){
+const feats=[["pa","Price Action","Understand how price behaves and how market structure develops."],["ta","Technical Analysis","Learn technical tools and how they can be combined into a structured analysis process."],["rm","Risk Management","Understand position sizing, stop-loss concepts and risk/reward."],["ps","Discipline","Build a systematic approach instead of making emotional decisions."]];
+const steps=[["Understand","Learn the foundations."],["Analyse","Study market structure and technical concepts."],["Practice","Apply concepts to charts."],["Build","Develop structured trading setups."],["Execute","Learn disciplined decision-making and risk management."]];
+const tt=CONFIG.testimonials.length?CONFIG.testimonials:[1,2,3].map(()=>({name:"Student name",text:"Real student testimonial will be added here.",ph:1}));
+const ed=CONFIG.educators.map(e=>`<article class="glass ab rv">${e.photo?`<img src="${e.photo}" alt="${e.name}" loading="lazy" class="ph">`:`<div class="ph" role="img" aria-label="Photo placeholder for ${e.name}">Photo placeholder</div>`}<h3 style="text-transform:uppercase">${e.name}</h3><p style="color:var(--g);font-size:13px;letter-spacing:.1em;margin:4px 0 12px">${e.role.toUpperCase()}</p><p style="color:var(--mu);font-size:15px">${e.bio}</p></article>`).join("");
+return `<div class="pg"><header class="hero"><div class="grid"></div><div class="glow"></div><div class="wrap hg"><div><span class="lbl">Trading Education • Price Action • Technical Analysis</span><h1>Read the market.<br><em>Trade with purpose.</em></h1><p class="sub" style="font-size:18px">Master Price Action, Technical Analysis, Risk Management and practical market analysis through structured trading education from Arya Mishra and Brijendra Tiwari.</p><div class="ctas"><a class="btn pri" href="#courses">Explore Courses</a>${wa("Chat on WhatsApp")}</div></div>${HERO_CHART}</div></header>
+<section id="about" style="background:var(--bg2)"><div class="wrap sp"><div class="rv"><span class="lbl">Our approach</span><h2>Trading isn't about predicting every move.</h2><p class="sub">It's about understanding market behaviour, managing risk and building a structured process.</p></div><div class="glass chart rv">${STRUCT}<p class="note">Decorative illustration only.</p></div></div></section>
+<section id="educators"><div class="wrap">${head("Educators","Meet your educators")}<div class="g3" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));max-width:820px">${ed}</div></div></section>
+<section id="courses" style="background:var(--bg2)"><div class="wrap">${head("Programs","Choose your path","Structured learning paths. Trading involves risk; no course can guarantee profits.")}<div class="g3" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">${COURSES.map(courseCard).join("")}</div>
+<div class="glass cc feat rv" style="margin-top:22px;text-align:center;align-items:center;padding:40px 24px"><span class="badge" style="position:static;margin-bottom:14px">${PREMIUM.badge.toUpperCase()}</span><h3>${PREMIUM.title}</h3><p style="font-family:'Space Grotesk';letter-spacing:.06em;margin:10px 0">${PREMIUM.parts.join(" &nbsp;+&nbsp; ").toUpperCase()}</p><div class="pr" style="color:var(--g)">${PREMIUM.price?money(PREMIUM.price):"COMING SOON"}</div><a class="btn pri" data-wl target="_blank" rel="noopener" href="#">Join Waitlist</a></div>
+<p class="disc" style="border:0">${CONFIG.disclaimer}</p></div></section>
+<section id="why"><div class="wrap">${head("Why us","Built around real market concepts")}<div class="g4">${feats.map(f=>`<div class="glass fc rv">${icon(f[0])}<h3>${f[1]}</h3><p>${f[2]}</p></div>`).join("")}</div></div></section>
+<section style="background:var(--bg2)"><div class="wrap">${head("Learning process","From foundations to disciplined execution")}<ol class="tl">${steps.map((x,i)=>`<li class="glass rv"><b>0${i+1}</b><h3>${x[0]}</h3><p>${x[1]}</p></li>`).join("")}</ol></div></section>
+<section><div class="wrap">${head("Testimonials","Student feedback")}<div class="g3">${tt.map(x=>`<blockquote class="glass fc rv" ${x.ph?'style="border-style:dashed"':""}><p style="${x.ph?"color:var(--mu);font-style:italic":""}">“${x.text}”</p><p style="margin-top:12px;color:var(--g);font-size:13px">${x.ph?"Placeholder":x.name}</p></blockquote>`).join("")}</div></div></section>
+<section id="faq" style="background:var(--bg2)"><div class="wrap"><div style="text-align:center">${head("FAQ","Common questions")}</div><div class="fq">${FAQS.map((f,i)=>`<div class="glass fi rv"><button aria-expanded="false" aria-controls="a${i}" id="q${i}">${f[0]}</button><div class="fa" id="a${i}" role="region" aria-labelledby="q${i}"><div>${f[1]}</div></div></div>`).join("")}</div></div></section>
+<section id="contact"><div class="wrap"><div class="glass ct rv"><span class="lbl">Contact</span><h2>Ready to start learning?</h2><p class="sub" style="margin:0 auto">Have questions about our courses or enrollment? Speak with us directly.</p><div class="ctas">${wa("Chat on WhatsApp","btn pri")}<a class="btn" href="#courses">Explore Courses</a></div><p style="margin-top:18px;color:var(--mu);font-size:14px">${CONFIG.whatsappDisplay}</p></div></div></section></div>`}
+function detail(id){
+const c=COURSES.find(x=>x.id===id);if(!c)return `<div class="wrap det"><h2>Course not found</h2><a class="btn" href="#courses">View Courses</a></div>`;
+return `<div class="wrap det pg"><a href="#courses" style="color:var(--mu);font-size:14px">← All courses</a><div class="dg"><div><span class="lbl">Course ${c.n}</span><h1 style="font-size:clamp(32px,5vw,56px)">${c.title}</h1><p class="sub" style="margin-top:16px;font-size:18px">${c.description}</p>
+<h3>Who this course is for</h3><ul class="chk">${c.audience.map(x=>`<li>${x}</li>`).join("")}</ul>
+<h3>What you will learn</h3><ul class="chk">${c.learn.map(x=>`<li>${x}</li>`).join("")}</ul>
+<h3>Curriculum</h3><ol class="cur" style="padding:0">${c.curriculum.map(x=>`<li>${x}</li>`).join("")}</ol>
+<h3>Learning outcomes</h3><ul class="chk">${c.outcomes.map(x=>`<li>${x}</li>`).join("")}</ul>
+<h3>Course details</h3><p style="color:var(--mu)">Duration: ${c.duration}<br>Format: ${c.format}</p>
+<h3>Enrollment process</h3><ol class="chk" style="padding:0"><li>Click Enroll Now and fill in your details</li><li>Review the order summary</li><li>Continue on WhatsApp</li><li>Receive payment and enrollment details there</li></ol><h3>FAQ</h3><div>${FAQS.slice(0,4).map((f,i)=>`<div class="glass fi" style="margin-bottom:10px"><button aria-expanded="false" aria-controls="d${i}" id="dq${i}">${f[0]}</button><div class="fa" id="d${i}" role="region" aria-labelledby="dq${i}"><div>${f[1]}</div></div></div>`).join("")}</div><p class="disc">${CONFIG.disclaimer}</p></div>
+<aside class="glass pc" aria-label="Pricing"><span class="lbl">${c.badge||"Course"}</span><h3 style="text-transform:uppercase;font-size:20px">${c.title}</h3><div class="big" style="margin-top:14px">${money(c.price)}</div><p class="mt">One-time payment</p><button class="btn pri" style="width:100%" data-enroll="${c.id}">Enroll Now</button><p class="mt" style="margin:14px 0 0">No online payment on this site. You'll continue on WhatsApp for payment details.</p></aside></div></div>`}
+/* ============ router & interactions ============ */
+const app=$("#app");
+function bindReveal(){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll(".rv").forEach(el=>io.observe(el))}
+function bindFaq(){document.querySelectorAll(".fi button").forEach(b=>b.onclick=()=>{const p=b.parentElement,o=p.classList.toggle("o");b.setAttribute("aria-expanded",o)})}
+function bindWA(){document.querySelectorAll("[data-wl]").forEach(a=>a.href="https://wa.me/"+CONFIG.whatsapp+"?text="+encodeURIComponent("Hello Trade With Abhijeet, I would like to join the waitlist for The Complete Trading Program."));document.querySelectorAll("[data-wa]").forEach(a=>a.href=generateWhatsAppLink(null))}
+function route(){
+  const h=location.hash,m=h.match(/^#\/course\/(.+)$/);
+  $("#mob").classList.remove("on");$("#bg").setAttribute("aria-expanded","false");
+  if(m){app.innerHTML=detail(m[1]);window.scrollTo(0,0);document.title=`${(COURSES.find(c=>c.id===m[1])||{title:"Course"}).title} | ${CONFIG.brand}`}
+  else{const sec=h.replace("#","");if(!$("#courses")||app.dataset.p!=="home")app.innerHTML=home();app.dataset.p="home";document.title=`Trade With Abhijeet | Price Action & Technical Analysis`;
+    if(sec&&!sec.startsWith("/")){setTimeout(()=>document.getElementById(sec)?.scrollIntoView(),30)}else window.scrollTo(0,0)}
+  if(m)app.dataset.p="detail";
+  bindReveal();bindFaq();bindWA();
+  document.querySelectorAll("[data-enroll]").forEach(b=>b.onclick=()=>checkout(b.dataset.enroll));
+}
+addEventListener("hashchange",route);
+addEventListener("scroll",()=>$("#nav").classList.toggle("sc",scrollY>20),{passive:true});
+$("#bg").onclick=()=>{const o=$("#mob").classList.toggle("on");$("#bg").setAttribute("aria-expanded",o)};
+/* modal */
+const md=$("#md"),mb=$("#mbody");
+const close=()=>md.classList.remove("on");
+md.onclick=e=>{if(e.target===md)close()};
+addEventListener("keydown",e=>{if(e.key==="Escape")close()});
+function checkout(id){
+  const c=COURSES.find(x=>x.id===id);
+  mb.innerHTML=`<button class="x" aria-label="Close" onclick="close_()">×</button><h3 id="mt">Enroll: ${c.title}</h3>
+  <form id="cf" novalidate>
+  <label for="fn">Full name</label><input id="fn" autocomplete="name" required><div class="er" id="e1"></div>
+  <label for="fp">WhatsApp number</label><input id="fp" type="tel" inputmode="tel" autocomplete="tel" placeholder="+91 98765 43210" required><div class="er" id="e2"></div>
+  <label for="fe">Email</label><input id="fe" type="email" autocomplete="email" required><div class="er" id="e3"></div>
+  <label for="fs">Selected course</label><select id="fs">${COURSES.map(x=>`<option value="${x.id}" ${x.id===id?"selected":""}>${x.title}</option>`).join("")}</select>
+  <label for="fm">Message (optional)</label><textarea id="fm" rows="2" maxlength="300"></textarea>
+  <div class="sm" aria-live="polite"><div><span>Course</span><b id="sc"></b></div><div><span>Price</span><span id="sp"></span></div><div style="border-top:1px solid var(--bd);margin-top:6px;padding-top:8px"><b>Total</b><b id="st" style="color:var(--g)"></b></div></div>
+  <button class="btn pri" style="width:100%;font-size:15px;padding:17px">Continue on WhatsApp</button>
+  <p style="font-size:12px;color:var(--mu);margin-top:12px">Your details are only used to prefill a WhatsApp message to us. Nothing is stored on this website.</p><p style="font-size:11px;color:var(--mu);margin-top:10px;line-height:1.6">${CONFIG.disclaimer}</p></form>`;
+  const upd=()=>{const s=COURSES.find(x=>x.id===$("#fs").value);$("#sc").textContent=s.title;$("#sp").textContent=$("#st").textContent=money(s.price)};
+  $("#fs").onchange=upd;upd();md.classList.add("on");$("#fn").focus();
+  $("#cf").onsubmit=e=>{e.preventDefault();
+    const name=$("#fn").value.trim(),phone=$("#fp").value.trim(),email=$("#fe").value.trim();
+    const e1=name.length<2?"Please enter your full name.":"",
+      e2=!/^\+?[\d\s\-]{10,15}$/.test(phone)?"Enter a valid number (10–15 digits).":"",
+      e3=!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)?"Enter a valid email address.":"";
+    $("#e1").textContent=e1;$("#e2").textContent=e2;$("#e3").textContent=e3;
+    if(e1||e2||e3)return;
+    const s=COURSES.find(x=>x.id===$("#fs").value);
+    window.open(generateWhatsAppLink(s,{name,phone,email,msg:$("#fm").value.trim()}),"_blank","noopener");
+  };
+}
+function close_(){close()}
+function legal(k){mb.innerHTML=`<button class="x" aria-label="Close" onclick="close_()">×</button><h3 id="mt">${{privacy:"Privacy Policy",terms:"Terms & Conditions",disclaimer:"Disclaimer"}[k]}</h3><p style="color:var(--mu)">${k==="disclaimer"?CONFIG.disclaimer:CONFIG.legal[k]}</p>`;md.classList.add("on")}
+document.querySelectorAll("[data-legal]").forEach(a=>a.onclick=e=>{e.preventDefault();legal(a.dataset.legal)});
+/* init brand */
+const B=CONFIG.brand;
+$("#logo").innerHTML=B.replace(/(\S+)$/,"<b>$1</b>");$("#flogo").textContent=B;
+$("#disclaimer").textContent="Disclaimer: "+CONFIG.disclaimer;
+$("#copy").textContent=`© 2026 ${B.charAt(0)+B.slice(1).toLowerCase().replace(/\b\w/g,c=>c.toUpperCase())}. All rights reserved.`;
+$("#fwa").textContent=CONFIG.whatsappDisplay;
+route();
+</script>
+</body>
+</html>
